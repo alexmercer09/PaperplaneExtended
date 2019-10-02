@@ -34,7 +34,7 @@ KANGING_STR = [
 
 @register(outgoing=True, pattern="^.checkmate")
 @errors_handler
-async def kang(args):
+async def checkmate(args):
     """ For .checkmate command, kangs stickers or creates new ones. """
     user = await bot.get_me()
     if not user.username:
