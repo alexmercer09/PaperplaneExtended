@@ -41,7 +41,7 @@ async def fastpurger(purg):
         await purg.client.send_message(
             BOTLOG_CHATID,
             "Purge of " + str(count) + " messages done successfully.")
-    await sleep(5)
+    await sleep(10)
     await done.delete()
 
 
@@ -68,7 +68,7 @@ async def purgeme(delme):
         await delme.client.send_message(
             BOTLOG_CHATID,
             "Purge of " + str(count) + " messages done successfully.")
-    await sleep(5)
+    await sleep(10)
     i = 1
     await smsg.delete()
 
