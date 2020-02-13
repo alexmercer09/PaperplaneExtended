@@ -130,7 +130,7 @@ async def amireallyalive(alive):
                      "You are now Infected by the Mercer-Virus! \n\n"
                      f"Telethon version: {version.__version__} \n"
                      f"Python: {python_version()} \n"
-                     f"Owner: {DEFAULTUSER}"
+                     f"Owner: 𝕬𝖑𝖊𝖝 𝕵 𝕸𝖊𝖗𝖈𝖊𝖗"
                      "`")
 
 
